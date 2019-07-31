@@ -3,7 +3,7 @@ import Modal from 'react-awesome-modal';
 import './Popup.css';
 import { SocialIcon } from 'react-social-icons';
 
-export default class Examples extends Component {
+export default class Popup extends Component {
     constructor(props) {
         super(props);
         this.state = {
