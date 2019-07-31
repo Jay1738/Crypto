@@ -5,7 +5,7 @@ import { Component } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import Popup from './Popup.js';
 
-export default class Profile extends Component {
+export default class Login extends Component {
 
     render() {
         return (
