@@ -1,7 +1,7 @@
 import React from 'react';
 import './Balance.css';
 import { Component } from 'react';
-import Example from './graphs/Achart.js';
+import Chart1 from './charts/Chart1';
 
 export default class Balance extends Component {
 
@@ -20,7 +20,7 @@ export default class Balance extends Component {
                     <div className="options">Monthly</div>
                 </div>
                 <div>
-
+                    <Chart1/>
                 </div>
             </div>
             <div className="pie-chart-container">
