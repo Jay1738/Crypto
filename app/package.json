@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@vx/curve": "0.0.189",
+    "@vx/event": "0.0.189",
+    "@vx/grid": "0.0.190",
+    "@vx/mock-data": "0.0.189",
+    "@vx/scale": "0.0.190",
+    "@vx/shape": "0.0.190",
+    "@vx/tooltip": "0.0.189",
+    "d3": "^5.9.7",
+    "d3-array": "2.2.0",
+    "d3-time-format": "2.1.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "recharts": "^1.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
