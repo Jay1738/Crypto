@@ -2,6 +2,8 @@ import React from 'react';
 import './Balance.css';
 import { Component } from 'react';
 import Chart from './Chart.js';
+import Piechart from './Piechart';
+
 
 export default class Balance extends Component {
 
@@ -9,7 +11,7 @@ export default class Balance extends Component {
         return (
             <div>
             <div className="balance">
-                <div className="title">
+                <div className="title" id="balance-title">
                     Balance
                 </div>
                 <div className="chart-options">
@@ -19,11 +21,15 @@ export default class Balance extends Component {
                     <div className="options">Weekly</div>
                     <div className="options">Monthly</div>
                 </div>
-                <div>
+                <div className="chart-1">
                     <Chart/>
                 </div>
             </div>
             <div className="pie-chart-container">
+                <div className="chart-2">
+                <div className="title" id="portfolio">Portfolio</div>
+                <Piechart />
+                </div>
             </div>
             </div>
         );

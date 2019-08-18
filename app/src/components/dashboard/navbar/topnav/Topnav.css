@@ -15,19 +15,25 @@ img {
 
 .asset-container {
     position: relative;
-    float: left;
+    float: right;
     color: white;
     padding-top: 30px;
 }
 
 .fa-user-circle {
+    position: relative;
     color: white;
     padding-top: 25px;
-    float: left;
+    float: right;
 }
 
 .fa-sign-out-alt {
+    position: relative;
     color: white;
     padding-top: 25px;
-    float: left;
+    float: right;
+}
+
+ul li {
+    list-style-type: none;
 }

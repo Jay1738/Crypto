@@ -1,7 +1,7 @@
 .balance {
     box-shadow: 0px 0px 159px -7px rgba(0,0,0,0.4);
     color: black;
-    width: 950px;
+    width: 850px;
     height: 600px;
     position: relative;
     float: left;
@@ -11,7 +11,7 @@
 
 .pie-chart-container {
     box-shadow: 0px 0px 159px -7px rgba(0,0,0,0.4);
-    width: 500px;
+    width: 600px;
     height: 600px;
     position: relative;
     float: left;
@@ -26,10 +26,16 @@
     font-size: 40px;
 }
 
+#balance-title {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
 .chart-options {
     width:100%;
     height:50px;
     display: inline-block;
+    padding-left: 130px;
     
 }
 
@@ -39,4 +45,17 @@
     padding-left: 20px;
     font-size: 25px;
     padding-top:10PX;
+}
+
+.chart-1 {
+    padding-left: 50px;
+}
+
+.chart-2 {
+    margin-left: 60px;
+}
+
+#portfolio {
+    margin-left: 10px;
+    margin-top: 40px;
 }
